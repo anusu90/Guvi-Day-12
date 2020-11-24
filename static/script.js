@@ -69,6 +69,15 @@ solve = () => {
     return output
 };
 
+logKey = (k) => {
+    console.log(k.key)
+
+    allowedInput = '1234567890';
+    if (!allowedInput.includes(k.key)){
+        alert('Wrong Input');
+    }
+}
+
 for (btn of allBtn){
     btn.addEventListener('click', activity);
 }
@@ -83,3 +92,6 @@ mAc.addEventListener('click', sessionStorageClear)
 //
 
 equal.addEventListener('click', solve)
+
+
+document.addEventListener('keypress', logKey);
