@@ -1,0 +1,39 @@
+.my-class-1 {
+    background-color: red;
+}
+
+.my-class-2 {
+    background-color: green;
+}
+
+.my-class-3 {
+    background-color: royalblue;
+}
+.my-class-4 {
+    background-color: yellow;
+}
+
+
+html{
+    height: 100vh;
+}
+
+p.display-area{
+    display: inline-block;
+    height: 120px;
+}
+
+.my-button{
+    width: 100%;
+    /* margin: 0 1%; */
+}
+
+.display-row{
+    border: black solid 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+/* .display-area, .solution-area{
+    
+} */
